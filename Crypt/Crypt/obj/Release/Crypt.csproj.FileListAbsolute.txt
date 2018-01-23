@@ -1,0 +1,6 @@
+C:\projects\rafael.cassiolato\Próprios\Crypt\Crypt\bin\Release\Crypt.dll.config
+C:\projects\rafael.cassiolato\Próprios\Crypt\Crypt\bin\Release\Crypt.dll
+C:\projects\rafael.cassiolato\Próprios\Crypt\Crypt\bin\Release\Crypt.pdb
+C:\projects\rafael.cassiolato\Próprios\Crypt\Crypt\obj\Release\Crypt.csprojResolveAssemblyReference.cache
+C:\projects\rafael.cassiolato\Próprios\Crypt\Crypt\obj\Release\Crypt.dll
+C:\projects\rafael.cassiolato\Próprios\Crypt\Crypt\obj\Release\Crypt.pdb

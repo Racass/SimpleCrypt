@@ -1,0 +1,6 @@
+C:\projects\rafael.cassiolato\Próprios\Crypt\Crypt\bin\Debug\Crypt.exe.config
+C:\projects\rafael.cassiolato\Próprios\Crypt\Crypt\bin\Debug\Crypt.exe
+C:\projects\rafael.cassiolato\Próprios\Crypt\Crypt\bin\Debug\Crypt.pdb
+C:\projects\rafael.cassiolato\Próprios\Crypt\Crypt\obj\Debug\Crypt.csprojResolveAssemblyReference.cache
+C:\projects\rafael.cassiolato\Próprios\Crypt\Crypt\obj\Debug\Crypt.exe
+C:\projects\rafael.cassiolato\Próprios\Crypt\Crypt\obj\Debug\Crypt.pdb

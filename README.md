@@ -1,2 +1,3 @@
 # SimpleCrypt
-Do a simple crypt
+
+It creates a mask on the provided string

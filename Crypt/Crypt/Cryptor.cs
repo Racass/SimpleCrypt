@@ -1,34 +1,33 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Crypt
 {
-    static class Cryptor
+    public class Cryptor
     {
-        
-
-        public static void Sim_Crypt(string msg, out string crypt)
+        private string message {get; private set;}
+        private string masked {get; private set;}
+        public Cryptor(string message)
         {
-            string retorno = "";
-            char[] temp = msg.ToCharArray();
+            this.message = message;
+            mask();
+        }
+
+        private void mask()
+        {
+            string tempString = "";
+            char[] temp = message.ToCharArray();
             int[] subCrypt = new int[temp.Length];
 
             for (int i = 0; i < temp.Length; i++)
                 subCrypt[i] = (Convert.ToInt32(temp[i]) + 10) * 10;
 
             for (int i = 0; i < subCrypt.Length; i++)
-                retorno += Convert.ToChar(subCrypt[i]).ToString();
+                tempString += Convert.ToChar(subCrypt[i]).ToString();
 
-            crypt = retorno;
-
-            return;
+            this.masked = tempString;
         }
 
-
-        public static void Sim_UnCrypt(string msg, out string uncrypt)
+        private void Sim_UnCrypt(string msg, out string uncrypt) /*Not used*/
         {
             string retorno = "";
             char[] temp = msg.ToCharArray();
@@ -49,8 +48,5 @@ namespace Crypt
 
             return;
         }
-
-
-
     }
 }
